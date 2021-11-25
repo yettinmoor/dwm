@@ -12,6 +12,7 @@ static const int          showbar         = 1; /* 0 means no bar */
 static const int          topbar          = 1; /* 0 means bottom bar */
 static const char*        fonts[]         = {
     "monospace:size=12",
+    "FontAwesome:size=12",
     "Noto Sans Mono CJK JP:size=12",
     "Noto Color Emoji:size=12",
 };
@@ -133,4 +134,3 @@ static Button buttons[] = {
     { ClkTagBar, MODKEY, Button1, tag, { 0 } },
     { ClkTagBar, MODKEY, Button3, toggletag, { 0 } },
 };
-
